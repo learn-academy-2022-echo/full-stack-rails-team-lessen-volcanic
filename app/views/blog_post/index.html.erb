@@ -1,0 +1,10 @@
+<h1> 'My Blog Post' </h1>
+
+<% @blogposts.map do |value| %>
+
+    
+    <%= value.title %>
+
+    <%= value.content %>
+<br>
+<% end %>
